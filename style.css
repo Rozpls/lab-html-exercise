@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header img.blackHeart {
+    width: 20px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+}
+
+header form input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+header form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+header button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#section1 {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#section1 h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#section1 article {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+#section1 div button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#section2 {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e9ecef;
+}
+
+#section2 h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#section2 article {
+    font-size: 1.2em;
+}
+
+#section3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#section3 div {
+    text-align: center;
+    max-width: 200px;
+}
+
+#section3 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#section3 h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#section3 p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+#section3 button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
